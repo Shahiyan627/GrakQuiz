@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title data-key="title">Հայ գրականություն | Ոսկեդարի Քուիզ</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">
+            <a href="#">հարցում</a>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#" data-key="nav_quiz">Ոսկեդար</a></li>
+            </ul>
+        </nav>
+        <div class="header-controls">
+            <button id="lang-toggle" class="control-btn" aria-label="Փոխել լեզուն">
+                HY/RU/EN
+            </button>
+            <button id="theme-toggle" class="control-btn" aria-label="Փոխել թեման">
+                🌙
+            </button>
+        </div>
+    </header>
+
+    <main id="quiz-main" class="quiz-main-section">
+        <h2 data-key="section_quiz_title">Փորձիր Իմացությունդ: Հայոց Ոսկեդար (V դար)</h2> 
+        
+        <div class="quiz-container">
+            <div id="question-area">
+                <p id="question-number" class="question-info"></p>
+                <h3 id="question-text"></h3>
+                
+                <div id="answers-container" class="answers-grid">
+                    </div>
+            </div>
+
+            <div id="results-area" class="hidden">
+                <h3 id="score-text"></h3>
+                <p id="detailed-score" class="detailed-info"></p> <p id="feedback-text"></p>
+                <button id="restart-button" class="cta-button" data-key="quiz_restart">Նորից սկսել</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p class="footer-copy" data-key="footer_copy">&copy; 2025 Գրական Քուիզ. Բոլոր իրավունքները պաշտպանված են։</p>
+        <p class="footer-creator" data-key="footer_creator">Կայքը գրված է Գևորգ Շահինյանի կողմից։</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
