@@ -1,10 +1,10 @@
 :root {
-    --color-bg: #f4f6f9;          
+    --color-bg: #e6e9ee;         
     --color-text: #2c3e50;        
     --color-primary: #3498db;     
-    --color-secondary: #ffffff;   
-    --color-border: #d0d3d4;      
-    --color-shadow: rgba(52, 152, 219, 0.18); 
+    --color-secondary: #f0f2f5;   
+    --color-border: #c9ccd0;      
+    --color-shadow: rgba(52, 152, 219, 0.1); 
     --transition-speed: 0.5s;
     --font-serif: 'Roboto Slab', serif;
     --font-sans: 'Montserrat', sans-serif;
@@ -36,6 +36,8 @@ a {
     transition: color 0.3s;
 }
 a:hover { filter: brightness(1.2); }
+
+/* --- HEADER / NAVIGATION --- */
 
 .main-header {
     display: flex;
@@ -142,6 +144,13 @@ a:hover { filter: brightness(1.2); }
     font-size: 1.4rem;
 }
 
+.detailed-info {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    color: var(--color-text);
+}
+
 .answers-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); 
@@ -152,7 +161,7 @@ a:hover { filter: brightness(1.2); }
 .answer-btn {
     width: 100%;
     padding: 1.8rem 2rem;
-    background-color: var(--color-bg);
+    background-color: var(--color-bg); 
     color: var(--color-text);
     border: 0.2rem solid var(--color-border);
     border-radius: 1rem;
@@ -205,42 +214,6 @@ a:hover { filter: brightness(1.2); }
 .slide-up.in-view {
     opacity: 1;
     transform: translateY(0);
-}
-
-:root {
-    --color-bg: #f4f6f9;          
-    --color-text: #2c3e50;        
-    --color-primary: #3498db;     
-    --color-secondary: #ffffff;   
-    --color-border: #d0d3d4;      
-    --color-shadow: rgba(52, 152, 219, 0.18);
-    --transition-speed: 0.5s;
-    --font-serif: 'Roboto Slab', serif;
-    --font-sans: 'Montserrat', sans-serif;
-    --header-height: 7rem;
-}
-.dark-mode {
-    --color-bg: #1f272e;
-    --color-text: #ecf0f1;
-    --color-primary: #f39c12;
-    --color-secondary: #2c3e3e;
-    --color-border: #44515f;
-    --color-shadow: rgba(0, 0, 0, 0.5);
-}
-.quiz-main-section {
-    min-height: calc(100vh - var(--header-height) - 7rem); 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 3rem 5vw;
-    text-align: center;
-}
-.detailed-info {
-    font-size: 1.8rem;
-    font-weight: 600;
-    margin-bottom: 3rem;
-    color: var(--color-text);
 }
 
 
