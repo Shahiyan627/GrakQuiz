@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     { 
         question: { hy: "Որ դարից են պահպանվել հայ բանահյուսության գրավոր օրինակներ։", ru: "С какого века сохранились письменные образцы армянского фольклора?", en: "From which century have written examples of Armenian folklore been preserved?" }, 
-        answers: [{ text: { hy: "3-րդ դարից։", ru: "С 3-го века.", en: "From the 3rd century." }, correct: false }, { text: { hy: "4-րդ դարից։", ru: "С 4-го века.", en: "From the 4th century." }, correct: false }, { text: { hy: "5-րդ դարից։", ru: "С 5-го века.", en: "From the 5th century." }, correct: true }] 
+        answers: [{ text: { hy: "3-րդ դարից։", ru: "С 3-го века.", en: "From the 3rd century." }, correct: false }, { text: { hy: "4-րդ դարից։", ru: "С 4-го века.", en: "From the 4th century." }, correct: false }, { text: { hy: "5-րդ դարից։", ru: "С 5-րդ դարից։", en: "From the 5th century." }, correct: true }] 
     },
     { 
         question: { hy: "Գիտնականների մի մասը ինչպե՞ս է վերաբերվում նախամաշտոցյան գրի գոյությանը։", ru: "Как часть ученых относится к существованию до-маштоцевской письменности?", en: "How do some scholars regard the existence of pre-Mashtots script?" }, 
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     { 
         question: { hy: "Ինչու՞ էր անհրաժեշտ ունենալ հայ գիր։", ru: "Почему необходимо было иметь армянскую письменность?", en: "Why was it necessary to have an Armenian script?" }, 
-        answers: [{ text: { hy: "Միայն առևտրի զարգացման համար։", ru: "Только для развития торговли.", en: "Only for the development of trade." }, correct: false }, { text: { hy: "Որպեսզի հայ ժողովուրդը չձուլվի օտարներին։", ru: "Чтобы армянский народ не ассимилировался с чужеземцами.", en: "So that the Armenian people would not assimilate with foreigners." }, correct: true }, { text: { hy: "Միայն օտար գրքեր թարգմանելու համար։", ru: "Только для перевода иностранных книг.", en: "Only for translating foreign books." }, correct: false }] 
+        answers: [{ text: { hy: "Միայն առևտրի զարգացման համար։", ru: "Только для развития торговли.", en: "Only for the development of trade." }, correct: false }, { text: { hy: "Որպեսզի հայ ժողովուրդը չձուլվի օտարներին։", ru: "Чтобы армянский народ не ассимилировался հետ чужеզեմներին։", en: "So that the Armenian people would not assimilate with foreigners." }, correct: true }, { text: { hy: "Միայն օտար գրքեր թարգմանելու համար։", ru: "Только для перевода иностранных книг.", en: "Only for translating foreign books." }, correct: false }] 
     },
     { 
         question: { hy: "Ովքե՞ր էին գրերի գյուտի գործի գլխավոր հովանավորները։", ru: "Кто были главными покровителями дела изобретения письменности?", en: "Who were the main patrons of the work of inventing the script?" }, 
@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     { 
         question: { hy: "Որտեղ է կրթություն ստացել Մաշտոցը։", ru: "Где получил образование Маштоц?", en: "Where did Mashtots receive his education?" }, 
-        answers: [{ text: { hy: "Միայն Վաղարշապատում։", ru: "Только в Вагаршапате.", en: "Only in Vagharshapat." }, correct: false }, { text: { hy: "Տարոնում, ապա Անտիոքում և Վաղարշապատում։", ru: "В Тароне, затем в Антиохии и Вагаршапате.", en: "In Taron, then in Antioch and Vagharshapat." }, correct: true }, { text: { hy: "Միայն Աթենքում։", ru: "Только в Афинах.", en: "Only in Athens." }, correct: false }] 
+        answers: [{ text: { hy: "Միայն Վաղարշապատում։", ru: "Только в Вагаршапате.", en: "Only in Vagharshapat." }, correct: false }, { text: { hy: "Տարոնում, ապա Անտիոքում և Վաղարշապատում։", ru: "В Тароне, затем в Антиохии и Վաղարշապատում։", en: "In Taron, then in Antioch and Vagharshapat." }, correct: true }, { text: { hy: "Միայն Աթենքում։", ru: "Только в Афинах.", en: "Only in Athens." }, correct: false }] 
     },
     { 
         question: { hy: "Ինչ լեզուներ էր տիրապետում Մաշտոցը։", ru: "Какими языками владел Маштоц?", en: "Which languages did Mashtots master?" }, 
@@ -125,11 +125,11 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     { 
         question: { hy: "Ի՞նչ էր անում վանական դառնալուց հետո։", ru: "Что он делал после того, как стал монахом?", en: "What did he do after becoming a monk?" }, 
-        answers: [{ text: { hy: "Մասնակցում էր ռազմական արշավներին։", ru: "Участвовал в военных походах.", en: "Participated in military campaigns." }, correct: false }, { text: { hy: "Թարգմանում էր Աստվածաշնչի հատվածներ հայերեն և քարոզում։", ru: "Переводил отрывки Библии на армянский и проповедовал.", en: "Translated excerpts of the Bible into Armenian and preached." }, correct: true }, { text: { hy: "Հիմնում էր քաղաքներ։", ru: "Основывал города.", en: "Founded cities." }, correct: false }] 
+        answers: [{ text: { hy: "Մասնակցում էր ռազմական արշավներին։", ru: "Участвовал в военных походах.", en: "Participated in military campaigns." }, correct: false }, { text: { hy: "Թարգմանում էր Աստվածաշնչի հատվածներ հայերեն և քարոզում։", ru: "Переводил отрывки Библии на армянский и քարոզում։", en: "Translated excerpts of the Bible into Armenian and preached." }, correct: true }, { text: { hy: "Հիմնում էր քաղաքներ։", ru: "Основывал города.", en: "Founded cities." }, correct: false }] 
     },
     { 
         question: { hy: "Ո՞ւմ հետ է կիսվել հայ գրի անհրաժեշտության մտահոգությամբ։", ru: "С кем он поделился своей озабоченностью необходимостью армянской письменности?", en: "With whom did he share his concern about the necessity of an Armenian script?" }, 
-        answers: [{ text: { hy: "Վռամշապուհ թագավորի։", ru: "С царем Врамшапухом.", en: "With King Vramshapuh." }, correct: false }, { text: { hy: "Սահակ Պարթևի։", ru: "С Сааком Партевом.", en: "With Sahak Partev." }, correct: true }, { text: { hy: "Կորյունի։", ru: "С Кориуном.", en: "With Koriun." }, correct: false }] 
+        answers: [{ text: { hy: "Վռամշապուհ թագավորի։", ru: "С царем Врамшапухом.", en: "With King Vramshapuh." }, correct: false }, { text: { hy: "Սահակ Պարթևի։", ru: "С Սահակ Պարթևի։", en: "With Sahak Partev." }, correct: true }, { text: { hy: "Կորյունի։", ru: "С Кориуном.", en: "With Koriun." }, correct: false }] 
     },
     { 
         question: { hy: "Ո՞վ է աջակցել Մաշտոցին գրերի ստեղծման գործում։", ru: "Кто поддержал Маштоца в деле создания письменности?", en: "Who supported Mashtots in the creation of the script?" }, 
@@ -165,10 +165,10 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     { 
         question: { hy: "Ի՞նչ հաջորդականությամբ են դասավորվել հայոց տառերը։", ru: "В какой последовательности были расположены армянские буквы?", en: "In what order were the Armenian letters arranged?" }, 
-        answers: [{ text: { hy: "Այբուբենը դասավորվեց ըստ Մաշտոցի ցանկության։", ru: "Алфавит был расположен по желанию Маштоца.", en: "The alphabet was arranged according to Mashtots' will." }, correct: false }, { text: { hy: "Հունական այբուբենի հաջորդականությամբ։", ru: "В последовательности греческого алфавита.", en: "In the sequence of the Greek alphabet." }, correct: true }, { text: { hy: "Լատիներեն այբուբենի հաջորդականությամբ։", ru: "В последовательности латинского алфавита.", en: "In the sequence of the Latin alphabet." }, correct: false }] 
+        answers: [{ text: { hy: "Այբուբենը դասավորվեց ըստ Մաշտոցի ցանկության։", ru: "Алфавит был расположен по желанию Մաշտոցի։", en: "The alphabet was arranged according to Mashtots' will." }, correct: false }, { text: { hy: "Հունական այբուբենի հաջորդականությամբ։", ru: "В последовательности греческого алфавита.", en: "In the sequence of the Greek alphabet." }, correct: true }, { text: { hy: "Լատիներեն այբուբենի հաջորդականությամբ։", ru: "В последовательности латинского алфавита։", en: "In the sequence of the Latin alphabet." }, correct: false }] 
     },
     { 
-        question: { hy: "Ովքե՞ր էին Մաշտոցի աշակերտներից երկուսը։", ru: "Кто были двое из учеников Маштоца?", en: "Who were two of Mashtots' students?" }, 
+        question: { hy: "Ովքե՞ր էին Մաշտոցի աշակերտներից երկուսը։", ru: "Кто были двое из учеников Մաշտոցի?", en: "Who were two of Mashtots' students?" }, 
         answers: [{ text: { hy: "Վռամշապուհը և Սահակ Պարթևը։", ru: "Врамшапух и Саак Партев.", en: "Vramshapuh and Sahak Partev." }, correct: false }, { text: { hy: "Հովհան Եկեղեցացին և Հովսեփ Պաղնացին։", ru: "Овхан Екехецаци и Овсеп Пагнаци.", en: "Hovhan Ekeghetsatsi and Hovsep Pagnatsi." }, correct: true }, { text: { hy: "Եղիշեն և Մովսես Խորենացին։", ru: "Егише и Мовсес Хоренаци.", en: "Eghishe and Movses Khorenatsi." }, correct: false }] 
     },
     { 
@@ -176,12 +176,12 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: [{ text: { hy: "«Հայոց պատմության»։", ru: "«Истории Армении».", en: "The 'History of Armenia'." }, correct: false }, { text: { hy: "Հունական քերականության։", ru: "Греческой грамматики.", en: "Greek grammar." }, correct: false }, { text: { hy: "Աստվածաշնչի։", ru: "Библии.", en: "The Bible." }, correct: true }] 
     },
     { 
-        question: { hy: "Ե՞րբ է մահացել Մեսրոպ Մաշտոցը։", ru: "Когда умер Месроп Маштоц?", en: "When did Mesrop Mashtots die?" }, 
+        question: { hy: "Ե՞րբ է մահացել Մեսրոպ Մաշտոցը։", ru: "Когда умер Մեսրոպ Մաշտոցը?", en: "When did Mesrop Mashtots die?" }, 
         answers: [{ text: { hy: "440 թվականի փետրվարի 17-ին։", ru: "17 февраля 440 года.", en: "On February 17, 440 AD." }, correct: true }, { text: { hy: "451 թվականին։", ru: "В 451 году.", en: "In 451 AD." }, correct: false }, { text: { hy: "405 թվականին։", ru: "В 405 году.", en: "In 405 AD." }, correct: false }] 
     },
     { 
         question: { hy: "Որտե՞ղ է թաղված։", ru: "Где он похоронен?", en: "Where is he buried?" }, 
-        answers: [{ text: { hy: "Վաղարշապատում։", ru: "В Вагаршапате.", en: "In Vagharshapat." }, correct: false }, { text: { hy: "Օշականում։", ru: "В Ошакане.", en: "In Oshakan." }, correct: true }, { text: { hy: "Եդեսիայում։", ru: "В Эдессе.", en: "In Edessa." }, correct: false }] 
+        answers: [{ text: { hy: "Վաղարշապատում։", ru: "В Вагарշապատում։", en: "In Vagharshapat." }, correct: false }, { text: { hy: "Օշականում։", ru: "В Оշակաне։", en: "In Oshakan." }, correct: true }, { text: { hy: "Եդեսիայում։", ru: "В Эդես։", en: "In Edessa." }, correct: false }] 
     },
     { 
         question: { hy: "Ինչ է կառուցվել նրա գերեզմանի վրա։", ru: "Что было построено на его могиле?", en: "What was built on his grave?" }, 
@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     { 
         question: { hy: "Որն էր առաջին թարգմանված գիրքը։", ru: "Какой была первая переведенная книга?", en: "What was the first translated book?" }, 
-        answers: [{ text: { hy: "Դիոնիսիոս Թրակացու «Քերականության արվեստը»։", ru: "«Искусство грамматики» Дионисия Фракийского.", en: "'The Art of Grammar' by Dionysius Thrax." }, correct: false }, { text: { hy: "«Հայոց պատմություն»։", ru: "«История Армении».", en: "'History of Armenia'." }, correct: false }, { text: { hy: "Աստվածաշունչը։", ru: "Библия.", en: "The Bible." }, correct: true }] 
+        answers: [{ text: { hy: "Դիոնիսիոս Թրակացու «Քերականության արվեստը»։", ru: "«Искусство грамматики» Дионисия Ֆրակացու։", en: "'The Art of Grammar' by Dionysius Thrax." }, correct: false }, { text: { hy: "«Հայոց պատմություն»։", ru: "«История Армении».", en: "'History of Armenia'." }, correct: false }, { text: { hy: "Աստվածաշունչը։", ru: "Библия.", en: "The Bible." }, correct: true }] 
     },
     { 
         question: { hy: "Ի՞նչ նպատակ ուներ Աստվածաշնչի թարգմանությունը։", ru: "Какова была цель перевода Библии?", en: "What was the purpose of the Bible translation?" }, 
@@ -205,19 +205,19 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     { 
         question: { hy: "Ովքեր էին 5-րդ դարի նշանավոր թարգմանիչներից։", ru: "Кто были одними из известных переводчиков 5-го века?", en: "Who were some of the notable translators of the 5th century?" }, 
-        answers: [{ text: { hy: "Մաշտոցը և Սահակ Պարթևը։", ru: "Месроп Маштоц и Саак Партев.", en: "Mashtots and Sahak Partev." }, correct: false }, { text: { hy: "Ղևոնդ Վանանդեցի, Հովսեփ Պաղնացի, Մամբրե Վերծանող, Դավիթ Անհաղթ, Մովսես Խորենացի։", ru: "Гевонд Ванандеци, Овсеп Пагнаци, Мамбре Верцаног, Давит Анхахт, Мовсес Хоренаци.", en: "Ghevond Vanandetsi, Hovsep Pagnatsi, Mambre Vertsanogh, Davit Anhaght, Movses Khorenatsi." }, correct: true }, { text: { hy: "Վարդան Մամիկոնյանը և Եղիշեն։", ru: "Вардан Мамиконян и Егише.", en: "Vardan Mamikonian and Eghishe." }, correct: false }] 
+        answers: [{ text: { hy: "Մաշտոցը և Սահակ Պարթևը։", ru: "Месроп Маштоц и Саак Партев.", en: "Mashtots and Sahak Partev." }, correct: false }, { text: { hy: "Ղևոնդ Վանանդեցի, Հովսեփ Պաղնացի, Մամբրե Վերծանող, Դավիթ Անհաղթ, Մովսես Խորենացի։", ru: "Гевонд Ванандеци, Овсеп Пагнаци, Мамбре Верцаног, Давит Анхахտ, Мовсес Хоренаци.", en: "Ghevond Vanandetsi, Hovsep Pagnatsi, Mambre Vertsanogh, Davit Anhaght, Movses Khorenatsi." }, correct: true }, { text: { hy: "Վարդան Մամիկոնյանը և Եղիշեն։", ru: "Вардан Մամիկոնյանը և Եղիշեն։", en: "Vardan Mamikonian and Eghishe." }, correct: false }] 
     },
     { 
         question: { hy: "Ո՞րն էր թարգմանված ամենահայտնի քերականական աշխատությունը։", ru: "Какой была самая известная переведенная грамматическая работа?", en: "What was the most famous translated grammatical work?" }, 
-        answers: [{ text: { hy: "«Եղծ աղանդոց»։", ru: "«Опровержение ересей».", en: "'Refutation of Sects'." }, correct: false }, { text: { hy: "Դիոնիսիոս Թրակացու «Քերականության արվեստը»։", ru: "«Искусство грамматики» Дионисия Фракийского.", en: "'The Art of Grammar' by Dionysius Thrax." }, correct: true }, { text: { hy: "«Վարք Մաշտոցի»։", ru: "«Житие Маштоца».", en: "'Life of Mashtots'." }, correct: false }] 
+        answers: [{ text: { hy: "«Եղծ աղանդոց»։", ru: "«Опровержение ересей».", en: "'Refutation of Sects'." }, correct: false }, { text: { hy: "Դիոնիսիոս Թրակացու «Քերականության արվեստը»։", ru: "«Искусство грамматики» Диոնիսիոս Թրակացու։", en: "'The Art of Grammar' by Dionysius Thrax." }, correct: true }, { text: { hy: "«Վարք Մաշտոցի»։", ru: "«Житие Маштоца».", en: "'Life of Mashtots'." }, correct: false }] 
     },
     { 
         question: { hy: "Որոնք են 5-րդ դարի հինգ նշանավոր պատմիչները։", ru: "Кто эти пять известных историков 5-го века?", en: "Who are the five notable historians of the 5th century?" }, 
-        answers: [{ text: { hy: "Մաշտոց, Սահակ Պարթև, Կորյուն, Վարդան Մամիկոնյան, Եզնիկ Կողբացի։", ru: "Маштоц, Саак Партев, Кориун, Вардан Мамиконян, Езник Кохбаци.", en: "Mashtots, Sahak Partev, Koriun, Vardan Mamikonian, Eznik Koghbatsi." }, correct: false }, { text: { hy: "Ագաթանգեղոս, Փավստոս Բուզանդ, Եղիշե, Ղազար Փարպեցի, Մովսես Խորենացի։", ru: "Агатангехос, Фавстос Бузанд, Егише, Лазарь Парпеци, Мовсес Хоренаци.", en: "Agathangelos, Pavstos Buzand, Eghishe, Ghazar Parpetsi, Movses Khorenatsi." }, correct: true }, { text: { hy: "Հովհան Եկեղեցացի, Հովսեփ Պաղնացի, Մամբրե Վերծանող, Դավիթ Անհաղթ, Կորյուն։", ru: "Овхан Екехецаци, Овсеп Пагнаци, Мамбре Верцаног, Давит Анхахт, Кориун.", en: "Hovhan Ekeghetsatsi, Hovsep Pagnatsi, Mambre Vertsanogh, Davit Anhaght, Koriun." }, correct: false }] 
+        answers: [{ text: { hy: "Մաշտոց, Սահակ Պարթև, Կորյուն, Վարդան Մամիկոնյան, Եզնիկ Կողբացի։", ru: "Маштоц, Саак Партев, Кориун, Вардан Мамиконян, Езник Кохбаци.", en: "Mashtots, Sahak Partev, Koriun, Vardan Mamikonian, Eznik Koghbatsi." }, correct: false }, { text: { hy: "Ագաթանգեղոս, Փավստոս Բուզանդ, Եղիշե, Ղազար Փարպեցի, Մովսես Խորենացի։", ru: "Агатангехос, Фавстос Бузанд, Егише, Лазарь Парпеци, Мовсес Хоренаци.", en: "Agathangelos, Pavstos Buzand, Eghishe, Ghazar Parpetsi, Movses Khorenatsi." }, correct: true }, { text: { hy: "Հովհան Եկեղեցացի, Հովսեփ Պաղնացի, Մամբրե Վերծանող, Դավիթ Անհաղթ, Կորյուն։", ru: "Овхан Եկեղեցացի, Հովսեփ Պաղնացի, Մամբրե Վերծանող, Դավիթ Անհաղթ, Կորյուն։", en: "Hovhan Ekeghetsatsi, Hovsep Pagnatsi, Mambre Vertsanogh, Davit Anhaght, Koriun." }, correct: false }] 
     },
     { 
         question: { hy: "Ո՞ր պատմիչն է նկարագրել քրիստոնեության մուտքը Հայաստան։", ru: "Какой историк описал вхождение христианства в Армению?", en: "Which historian described the entry of Christianity into Armenia?" }, 
-        answers: [{ text: { hy: "Մովսես Խորենացին։", ru: "Мовсес Хоренаци.", en: "Movses Khorenatsi." }, correct: false }, { text: { hy: "Ագաթանգեղոսը։", ru: "Агатангехос.", en: "Agathangelos." }, correct: true }, { text: { hy: "Փավստոս Բուզանդը։", ru: "Фавстос Бузанд.", en: "Pavstos Buzand." }, correct: false }] 
+        answers: [{ text: { hy: "Մովսես Խորենացին։", ru: "Мовсес Хоренаци.", en: "Movses Khorenatsi." }, correct: false }, { text: { hy: "Ագաթանգեղոսը։", ru: "Агатангехос.", en: "Agathangelos." }, correct: true }, { text: { hy: "Փավստոս Բուզանդը։", ru: "Фаվստոս Բուզանդը։", en: "Pavstos Buzand." }, correct: false }] 
     },
     { 
         question: { hy: "Ի՞նչ նշանակում է «Ագաթանգեղոս»։", ru: "Что означает «Агатангехос»?", en: "What does 'Agathangelos' mean?" }, 
@@ -236,8 +236,8 @@ document.addEventListener('DOMContentLoaded', () => {
         answers: [{ text: { hy: "Եղիշեն։", ru: "Егише.", en: "Eghishe." }, correct: false }, { text: { hy: "Ղազար Փարպեցին։", ru: "Лазарь Парпеци.", en: "Ghazar Parpetsi." }, correct: true }, { text: { hy: "Մովսես Խորենացին։", ru: "Мовсес Хоренаци.", en: "Movses Khorenatsi." }, correct: false }] 
     },
     { 
-        question: { hy: "Ո՞վ է գրել «Վասն Վարդանայ և Հայոց պատերազմին»։", ru: "Кто написал «О Вардане и войне Армянской»?", en: "Who wrote 'On Vardan and the Armenian War'?" }, 
-        answers: [{ text: { hy: "Մեսրոպ Մաշտոցը։", ru: "Месроп Маштоц.", en: "Mesrop Mashtots." }, correct: false }, { text: { hy: "Եղիշեն։", ru: "Егише.", en: "Eghishe." }, correct: true }, { text: { hy: "Կորյունը։", ru: "Кориун.", en: "Koriun." }, correct: false }] 
+        question: { hy: "Ո՞վ է գրել «Վասն Վարդանայ և Հայոց պատերազմին»։", ru: "Кто написал «О Вардане и войне Արмянской»?", en: "Who wrote 'On Vardan and the Armenian War'?" }, 
+        answers: [{ text: { hy: "Մեսրոպ Մաշտոցը։", ru: "Месроп Маштоц.", en: "Mesrop Mashtots." }, correct: false }, { text: { hy: "Եղիշեն։", ru: "Егише.", en: "Eghishe." }, correct: true }, { text: { hy: "Կորյունը։", ru: "Кориուն.", en: "Koriun." }, correct: false }] 
     },
     { 
         question: { hy: "Ո՞րն է համարվում 5-րդ դարի պատմագրության ամենակարևոր երկը։", ru: "Какое произведение считается самым важным в историографии 5-го века?", en: "Which work is considered the most important in 5th-century historiography?" }, 
@@ -265,6 +265,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let score = 0;
     const totalQuestions = quizQuestions.length; 
     let currentLang = localStorage.getItem('lang') || 'hy';
+    let wrongAnswersIndices = []; 
     if (!availableLangs.includes(currentLang)) currentLang = 'hy';
 
     const shuffleArray = (array) => {
@@ -375,15 +376,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const isCorrect = selectedButton.dataset.correct === 'true';
 
         if (isCorrect) {
-            selectedButton.classList.add('correct');
             score++;
         } else {
-            selectedButton.classList.add('wrong');
-            Array.from(answersContainer.children).forEach(button => {
-                if (button.dataset.correct === 'true') {
-                    button.classList.add('correct');
-                }
-            });
+            wrongAnswersIndices.push(currentQuestionIndex);
         }
 
         Array.from(answersContainer.children).forEach(button => {
@@ -397,7 +392,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 showResults();
             }
-        }, 1800); 
+        }, 300); 
     };
 
     const showResults = () => {
@@ -438,11 +433,66 @@ document.addEventListener('DOMContentLoaded', () => {
             else feedback = "You need to study a little more. Welcome back to try again. 📚";
         }
         feedbackText.textContent = feedback;
+
+        let wrongAnswersDetails = document.getElementById('wrong-answers-details');
+        if (wrongAnswersDetails) {
+            wrongAnswersDetails.remove(); 
+        }
+
+        if (wrongAnswersIndices.length > 0) {
+            let wrongListTitle;
+            let correctAnswerLabel;
+            if (currentLang === 'hy') {
+                wrongListTitle = "Սխալ պատասխաններ և ճիշտ տարբերակներ:";
+                correctAnswerLabel = "Ճիշտ պատասխան";
+            }
+            else if (currentLang === 'ru') {
+                wrongListTitle = "Неправильные ответы и правильные варианты:";
+                correctAnswerLabel = "Правильный ответ";
+            }
+            else {
+                wrongListTitle = "Incorrect Answers and Correct Options:";
+                correctAnswerLabel = "Correct Answer";
+            }
+
+            let wrongListHTML = `<div style="margin-top: 3rem; text-align: left;"><h4 style="font-size: 2rem; margin-bottom: 1.5rem; color: #e74c3c;">${wrongListTitle}</h4><ul style="list-style-type: none; padding-left: 0;">`;
+
+            wrongAnswersIndices.forEach(index => {
+                const q = quizQuestions[index];
+                const questionText = q.question[currentLang];
+                const correctAnswerObj = q.answers.find(a => a.correct);
+                const correctAnswerText = correctAnswerObj ? correctAnswerObj.text[currentLang] : 'N/A';
+                
+                wrongListHTML += `
+                    <li style="margin-bottom: 2rem; padding: 1rem; border-left: 0.5rem solid #e74c3c; background-color: var(--color-bg); border-radius: 0.5rem;">
+                        <p style="font-weight: bold; margin-bottom: 0.5rem;">${questionText}</p>
+                        <p style="color: #27ae60;">
+                            ${correctAnswerLabel}: 
+                            ${correctAnswerText}
+                        </p>
+                    </li>
+                `;
+            });
+            
+            wrongListHTML += '</ul></div>';
+
+            wrongAnswersDetails = document.createElement('div');
+            wrongAnswersDetails.id = 'wrong-answers-details';
+            wrongAnswersDetails.innerHTML = wrongListHTML;
+            resultsArea.appendChild(wrongAnswersDetails);
+        }
     };
 
     const startQuiz = () => {
         currentQuestionIndex = 0;
         score = 0;
+        wrongAnswersIndices = []; 
+        
+        let wrongAnswersDetails = document.getElementById('wrong-answers-details');
+        if (wrongAnswersDetails) {
+            wrongAnswersDetails.remove();
+        }
+
         resultsArea.classList.add('hidden');
         questionArea.classList.remove('hidden');
         showQuestion();
